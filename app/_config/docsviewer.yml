@@ -13,6 +13,11 @@ DocumentationManifest:
       Path: "assets/src/userhelp_master/docs/"
       Title: "User Help"
       Version: "4.0"
+    -
+      Path: "assets/src/userhelp_3.6/docs/"
+      Title: "User Help"
+      Version: "3.6"
+      Stable: true
       DefaultEntity: true
     -
       Path: "assets/src/userhelp_3.5/docs/"
@@ -45,4 +50,3 @@ DocumentationManifest:
       Title: "User Help"
       Version: "3.0"
       DefaultEntity: true
-      
