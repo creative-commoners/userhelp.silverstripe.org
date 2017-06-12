@@ -12,41 +12,45 @@ DocumentationManifest:
     -
       Path: "assets/src/userhelp_master/docs/"
       Title: "User Help"
-      Version: "4.0"
+      VersionTitle: "4.x"
+      Version: "4"
+      Branch: "master"
+      DefaultEntity: true
     -
       Path: "assets/src/userhelp_3.6/docs/"
       Title: "User Help"
-      Version: "3.6"
-      Stable: true
-      DefaultEntity: true
-    -
-      Path: "assets/src/userhelp_3.5/docs/"
-      Title: "User Help"
-      Version: "3.5"
+      VersionTitle: "3.x"
+      Version: "3"
+      Branch: "3"
       Stable: true
       DefaultEntity: true
     -
       Path: "assets/src/userhelp_3.4/docs/"
       Title: "User Help"
       Version: "3.4"
+      Archived: true
       DefaultEntity: true
     -
       Path: "assets/src/userhelp_3.3/docs/"
       Title: "User Help"
       Version: "3.3"
+      Archived: true
       DefaultEntity: true
     -
       Path: "assets/src/userhelp_3.2/docs/"
       Title: "User Help"
       Version: "3.2"
+      Archived: true
       DefaultEntity: true
     -
       Path: "assets/src/userhelp_3.1/docs/"
       Title: "User Help"
       Version: "3.1"
+      Archived: true
       DefaultEntity: true
     -
       Path: "assets/src/userhelp_3.0/docs/"
       Title: "User Help"
       Version: "3.0"
+      Archived: true
       DefaultEntity: true

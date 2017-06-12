@@ -61,6 +61,15 @@ ErrorDocument 500 /assets/error-500.html
     RewriteRule ^en/([0-9]\.[0-9])/for-website-administrators/managing-roles-and-permissions/?$ /en/$1/managing_your_website/managing_roles_and_permissions [R=301,L]
     RewriteRule ^en/([0-9]\.[0-9])/for-website-content-editors/blogs/?$ /en/$1/optional_features/blogs [R=301,L]
 
+    # Redirect 4.0 docs to 4 (new major version)
+    RewriteRule ^en/4\.0/(.*)?$ /en/4/$1 [R=301,L]
+
+    # Redirect any version > 3.4 to 3 branch
+    RewriteRule ^en/3\.[5-9]/(.*)?$ /en/3/$1 [R=301,L]
+
+    # Redirect old index links to the current version
+ 	RewriteRule ^en/all\/?$ /en/3/all [R=301,L]
+
 	# Legacy rewrites
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_URI} ^(?:(.*)/)?framework\/en [NC]
